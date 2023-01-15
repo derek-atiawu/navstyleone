@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sono:wght@200&family=Space+Mono&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.home, li, a, button{
+	font-family: "sono", sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.home{
+	cursor: pointer;
+	color: tomato;
+	font-size: 20px;
+}
+.navlinks{
+	list-style: none;
+}
+.navlinks li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.navlinks li a{
+	transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+	color: blue ;
+}
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer ;
+	transition: all 0.3s ease 0s;
+}
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}
